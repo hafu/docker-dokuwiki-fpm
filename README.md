@@ -7,6 +7,24 @@ start up:
 - checkout the current stable branch or update to the current stable branch
 - start as `app` user
 
+## Sources
+
+Sources for the **Dockerfile**:
+- [GitHub](https://github.com/hafu/docker-dokuwiki-fpm)
+- [GitLab](https://gitlab.com/hafu/docker-dokuwiki-fpm)
+
+Sources for **DokuWiki** can be found in the repository [DokuWiki](https://github.com/splitbrain/dokuwiki)
+of the user [splitbrain](https://github.com/splitbrain).
+
+## Images
+
+Images can be pulled from the following container registries:
+- Docker Hub: `docker pull hafu/dokuwiki-fpm`
+- GitHub Container Registry: `docker pull ghcr.io/hafu/dokuwiki-fpm`
+- GitLab Container Registry: `docker pull registry.gitlab.com/hafu/docker-dokuwiki-fpm/dokuwiki-fpm`
+
+There only exists a `latest` image. It is rebuild once a week.
+
 ## How to use this image
 
 To access DokuWiki you need a webserver running as reverse proxy. You also need
